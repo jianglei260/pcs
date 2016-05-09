@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="nav_item_icon_tint_color">#333</color>
+    <color name="nav_item_text_color">#333</color>
+    <color name="colorPrimary">#ff18B4ED</color>
+    <color name="colorPrimaryDark">#FF046090</color>
+    <color name="main_white">#FFFFFF</color>
+    <color name="main_half_white">#77FFFFFF</color>
+    <color name="main_black">#000000</color>
+    <color name="main_black_grey">#6D6D6D</color>
+    <color name="main_button_gray">#D6D7D6</color>
+    <color name="main_button_green">#FF37BC84</color>
+    <color name="main_button_green_preessed">#DD37BC84</color>
+</resources>

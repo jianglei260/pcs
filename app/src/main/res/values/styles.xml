@@ -1,0 +1,19 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">#249EF6</item>
+        <item name="colorPrimaryDark">#249EF6</item>
+        <item name="colorAccent">#249EF6</item>
+    </style>
+
+    <style name="AppTheme.WithoutActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+    <declare-styleable name="ProgressButton">
+        <attr name="startText" format="string"></attr>
+        <attr name="completeText" format="string"></attr>
+    </declare-styleable>
+</resources>

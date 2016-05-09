@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="GradleSettings">
+    <option name="linkedExternalProjectsSettings">
+      <GradleProjectSettings>
+        <option name="distributionType" value="DEFAULT_WRAPPED" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="gradleJvm" value="1.7" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/Application" />
+            <option value="$PROJECT_DIR$/CardReader" />
+            <option value="$PROJECT_DIR$/access" />
+            <option value="$PROJECT_DIR$/backup" />
+            <option value="$PROJECT_DIR$/btrssi" />
+            <option value="$PROJECT_DIR$/clean" />
+            <option value="$PROJECT_DIR$/friend" />
+            <option value="$PROJECT_DIR$/h264decode" />
+            <option value="$PROJECT_DIR$/library" />
+            <option value="$PROJECT_DIR$/news" />
+            <option value="$PROJECT_DIR$/nfc" />
+            <option value="$PROJECT_DIR$/note" />
+            <option value="$PROJECT_DIR$/package_tool" />
+            <option value="$PROJECT_DIR$/remind" />
+            <option value="$PROJECT_DIR$/weather" />
+            <option value="$PROJECT_DIR$/webapp" />
+            <option value="$PROJECT_DIR$/zoomPage" />
+          </set>
+        </option>
+        <option name="myModules">
+          <set>
+            <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/Application" />
+            <option value="$PROJECT_DIR$/CardReader" />
+            <option value="$PROJECT_DIR$/access" />
+            <option value="$PROJECT_DIR$/backup" />
+            <option value="$PROJECT_DIR$/btrssi" />
+            <option value="$PROJECT_DIR$/clean" />
+            <option value="$PROJECT_DIR$/friend" />
+            <option value="$PROJECT_DIR$/h264decode" />
+            <option value="$PROJECT_DIR$/library" />
+            <option value="$PROJECT_DIR$/news" />
+            <option value="$PROJECT_DIR$/nfc" />
+            <option value="$PROJECT_DIR$/note" />
+            <option value="$PROJECT_DIR$/package_tool" />
+            <option value="$PROJECT_DIR$/remind" />
+            <option value="$PROJECT_DIR$/weather" />
+            <option value="$PROJECT_DIR$/webapp" />
+            <option value="$PROJECT_DIR$/zoomPage" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+    </option>
+  </component>
+</project>

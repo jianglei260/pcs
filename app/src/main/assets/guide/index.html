@@ -1,0 +1,143 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" type="text/css" href="./frozen.css">
+    <link rel="stylesheet" type="text/css" href="./parallax.css">
+</head>
+<style>
+    section[data-id="1"] {
+    /* background-color: #3498db;
+    background-image: url(./img1.jpg);
+    background-size: 100% 80%;
+    background-repeat: no-repeat;*/
+    }
+    section[data-id="2"] {
+    /*background-color: #40d47e;
+    background-image: url(./img2.jpg);
+    background-size: 100% 100%;*/
+    }
+    section[data-id="3"] {
+    /*background-color: #ff8c81;
+    background-image: url(./img3.jpg);
+    background-size: 100% 100%;*/
+    }
+    section[data-id="4"] {
+    /*background-color: #3498db;
+    background-image: url(./img4.jpg);
+    background-size: 100% 100%;*/
+    }
+
+    section[data-id="5"] {
+    /*background-color: #3498db;
+    background-image: url(./img5.jpg);
+    background-size: 100% 100%;*/
+    }
+    img{
+    display: block;
+    width: 80%;
+    height: 80%;
+    margin: 5% auto;
+    }
+    .parallax-h-indicator{
+    height:50px;
+    }
+    .parallax-h-indicator ul li{
+    width: 30px;
+    height:30px;
+    line-height: 30px;
+    background-color: rgba(23,180,235,0.7);
+    }
+    .ui-btn-wrap{
+    position: absolute;
+    bottom:5%;
+    width: 60%;
+    height: 60px;
+    /*border-radius: 27%;*/
+    left:20%;
+
+    }
+    .ui-btn-lg{
+    height:100%;
+    border-radius: 20px;
+    font-size: 30px;
+    }
+</style>
+<body>
+<div class="wrapper">
+    <div class="pages">
+
+        <!-- 第一屏 -->
+        <section class="page">
+            <img src="./img1.jpg">
+        </section>
+
+        <!-- 第二屏 -->
+        <section class="page">
+            <img src="./img2.jpg">
+        </section>
+
+        <!-- 第三屏 -->
+        <section class="page">
+            <img src="./img3.jpg">
+        </section>
+
+        <!-- 第四屏 -->
+        <section class="page">
+            <img src="./img4.jpg">
+        </section>
+
+        <!-- 第五屏 -->
+        <section class="page">
+            <img src="./img5.jpg">
+
+            <div class="ui-btn-wrap">
+                <button class="ui-btn-lg ui-btn-danger">
+                    点击进入
+                </button>
+            </div>
+        </section>
+
+    </div>
+</div>
+</body>
+<script src="./zepto.min.js" type="text/javascript"></script>
+<script src="./frozen.js" type="text/javascript"></script>
+<script src="./parallax.js" type="text/javascript"></script>
+<script>
+		$('.pages').parallax({
+		    direction: 'horizontal',     // horizontal (水平翻页)
+		    swipeAnim: 'cover',     // cover (切换效果)
+		    drag:      true,        // 是否允许拖拽 (若 false 则只有在 touchend 之后才会翻页)
+		    loading:   false,        // 有无加载页
+		    indicator: true,        // 有无指示点
+		    arrow:     false,        // 有无指示箭头
+		    /*
+		     * 翻页后立即执行
+		     * {int}         index: 第几页
+		     * {DOMElement} element: 当前页节点
+		     * {String}        directation: forward(前翻)、backward(后翻)、stay(保持原页)
+		     */
+		    onchange: function(index, element, direction) {
+		        // code here...
+		        if(index==4){
+		        	$(".parallax-h-indicator").hide();
+		        }else{
+		        	$(".parallax-h-indicator").show();
+		        }
+		    },
+		    /*
+		     * 横竖屏检测
+		     * {String}        orientation: landscape / protrait
+		     */
+		    orientationchange: function(orientation) {
+		        // code here...    
+		    }
+		});
+		$(".ui-btn-danger").on("click",function(){
+			jsapi.start();
+		})
+
+</script>
+</html>

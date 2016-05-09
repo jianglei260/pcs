@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Application/Application.iml" filepath="$PROJECT_DIR$/Application/Application.iml" />
+      <module fileurl="file://$PROJECT_DIR$/CardReader/CardReader.iml" filepath="$PROJECT_DIR$/CardReader/CardReader.iml" />
+      <module fileurl="file://$PROJECT_DIR$/access/access.iml" filepath="$PROJECT_DIR$/access/access.iml" />
+      <module fileurl="file://$PROJECT_DIR$/backup/backup.iml" filepath="$PROJECT_DIR$/backup/backup.iml" />
+      <module fileurl="file://$PROJECT_DIR$/btrssi/btrssi.iml" filepath="$PROJECT_DIR$/btrssi/btrssi.iml" />
+      <module fileurl="file://$PROJECT_DIR$/clean/clean.iml" filepath="$PROJECT_DIR$/clean/clean.iml" />
+      <module fileurl="file://$PROJECT_DIR$/friend/friend.iml" filepath="$PROJECT_DIR$/friend/friend.iml" />
+      <module fileurl="file://$PROJECT_DIR$/h264decode/h264decode.iml" filepath="$PROJECT_DIR$/h264decode/h264decode.iml" />
+      <module fileurl="file://$PROJECT_DIR$/library/library.iml" filepath="$PROJECT_DIR$/library/library.iml" />
+      <module fileurl="file://$PROJECT_DIR$/news/news.iml" filepath="$PROJECT_DIR$/news/news.iml" />
+      <module fileurl="file://$PROJECT_DIR$/nfc/nfc.iml" filepath="$PROJECT_DIR$/nfc/nfc.iml" />
+      <module fileurl="file://$PROJECT_DIR$/note/note.iml" filepath="$PROJECT_DIR$/note/note.iml" />
+      <module fileurl="file://$PROJECT_DIR$/package_tool/package_tool.iml" filepath="$PROJECT_DIR$/package_tool/package_tool.iml" />
+      <module fileurl="file://$PROJECT_DIR$/pcs.iml" filepath="$PROJECT_DIR$/pcs.iml" />
+      <module fileurl="file://$PROJECT_DIR$/remind/remind.iml" filepath="$PROJECT_DIR$/remind/remind.iml" />
+      <module fileurl="file://$PROJECT_DIR$/weather/weather.iml" filepath="$PROJECT_DIR$/weather/weather.iml" />
+      <module fileurl="file://$PROJECT_DIR$/webapp/webapp.iml" filepath="$PROJECT_DIR$/webapp/webapp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/zoomPage/zoomPage.iml" filepath="$PROJECT_DIR$/zoomPage/zoomPage.iml" />
+    </modules>
+  </component>
+</project>

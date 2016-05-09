@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>关于</title>
+	<!-- Sets initial viewport load and disables zooming  -->
+	<!-- <meta name="viewport" content="initial-imal=1, maximum-scale=1, user-scalable=no, minimal-ui"> -->
+	<meta name="viewport" content="width=device-width,target-densitydpi=high-dpi,initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
+	<link media="all" href="css/frozen.css" rel="stylesheet">
+	<link media="all" href="css/public.css" rel="stylesheet">
+</head>
+<style type="text/css">
+	.content{
+		/*background-color: #808080 !important;*/
+	}	
+	.logo-img{
+      	display: block;
+            width: 100px;
+            height: 100px;
+            margin: 0 auto;
+            margin-top: 20px;
+            box-shadow: 0 3px 22px rgba(0,0,0,.1);
+		}
+		.slogan{
+		    /*margin: 0 auto;*/
+            text-align: center;
+            font-size: 12px;
+            margin-top: 10px;
+		  	margin-bottom: 40px;
+		  	font-size:15px;
+		}
+	
+		.about-title{
+			margin: 5px auto 0;
+			text-align: center;
+			color: #3498db;
+			margin-top: 20px;
+		}
+		#about-footer{
+			height: 24px;
+			text-align: center;
+			border-top:0; 
+			font-size: 12px;
+			margin-bottom: 10px;
+		}
+		#about-footer a
+		{
+			color: #BDBDBD !important;
+		}
+		.content{
+			background: white;
+			color: #979797;
+		}
+</style>
+<body>
+	<footer class="bar bar-footer" id='about-footer'>
+		<span><a href="http://www.shareto.link">&copy;享应</a></span>
+	</footer>
+	<div class="content">
+		<div class="banner">
+			<img src="./img/logo.png" class="logo-img">
+			<h2 class="about-title" data-href="http://sharein.avosapps.com">PCS v2.0.0</h2>
+			<p class="slogan">帮你更好的管理应用</p>
+		</div>
+		<ul class="ui-list ui-list-text ui-border-tb ui-list-link">
+			<li class="ui-border-t ui-list-item-link" data-href="http://form.mikecrm.com/f.php?t=RP29zl">
+					<div class="media-body">加入我们</div>
+			</li>
+			<li class="ui-border-t ui-list-item-link" data-href="./protocol.html">
+					<div class="media-body">服务协议</div>
+			</li>
+			<li class="ui-border-t ui-list-item-link" data-href="./aboutUs.html">
+					<div class="media-body">关于我们</div>
+			</li>
+		</ul>
+	</div>
+</body>
+<script src="./js/zepto.min.js"></script>
+<script>
+	$(".ui-list-item-link,.ui-border-t,.spe-list,.ui-btn-lg,.about-title").on("click", function() {
+		var href = $(this).data('href');
+		if (href) {
+			location.href = href;
+		}
+	});
+</script>
+</html>

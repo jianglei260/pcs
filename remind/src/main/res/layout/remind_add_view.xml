@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:layout_margin="8dp"
+        android:gravity="center_vertical"
+        android:text="设置提醒标题"
+        android:textSize="20sp"
+        android:textColor="@android:color/black"/>
+
+    <EditText
+        android:id="@+id/id_addremind_title"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:layout_margin="8dp"
+        android:background="#ffffff"
+        android:hint="添加标题"
+        android:padding="8dp"
+        android:textColor="@android:color/black"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:layout_margin="8dp"
+        android:gravity="center_vertical"
+        android:text="设置提醒时间"
+        android:textSize="20sp"
+        android:textColor="@android:color/black"/>
+
+    <TextView
+        android:id="@+id/id_addremind_time"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:layout_margin="8dp"
+        android:background="#ffffff"
+        android:hint="添加时间"
+        android:padding="8dp"
+        android:gravity="center_vertical"
+        android:textColor="@android:color/black"/>
+
+    <Button
+        android:id="@+id/id_addremind_add"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="32dp"
+        android:background="@color/color_main_blue"
+        android:text="设置提醒"
+        android:textColor="@color/color_main_white" />
+</LinearLayout>

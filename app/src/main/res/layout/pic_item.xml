@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@color/main_white">
+
+    <ImageView
+        android:id="@+id/id_pic_item_image"
+        android:layout_width="160dp"
+        android:layout_height="160dp"
+        android:src="@mipmap/ic_default_gray"
+        android:layout_margin="1dp"/>
+
+    <ImageView
+        android:id="@+id/id_pic_item_indicator"
+        android:layout_width="16dp"
+        android:layout_height="16dp"
+        android:layout_gravity="top|right"
+        android:layout_marginTop="8dp"
+        android:layout_marginRight="8dp"
+        android:src="@mipmap/ic_pic_unchecked_gray" />
+</FrameLayout>

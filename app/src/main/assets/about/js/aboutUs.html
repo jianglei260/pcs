@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>关于我们</title>
+	<!-- Sets initial viewport load and disables zooming  -->
+	<!-- <meta name="viewport" content="initial-imal=1, maximum-scale=1, user-scalable=no, minimal-ui"> -->
+	<meta name="viewport" content="width=device-width,target-densitydpi=high-dpi,initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
+	<link media="all" href="css/frozen.css" rel="stylesheet">
+	<link media="all" href="css/public.css" rel="stylesheet">
+</head>
+<style type="text/css">
+	.content{
+		/*background-color: #808080 !important;*/
+	}
+	h1{
+		font-size: 30px;
+		
+	}
+	.banner{
+		margin-top:50px; 
+	}	
+	.logo-img{
+      	display: block;
+            width: 100px;
+            height: 100px;
+            margin: 0 auto;
+            margin-top: 20px;
+            box-shadow: 0 3px 22px rgba(0,0,0,.1);
+		}
+		.slogan{
+		    /*margin: 0 auto;*/
+            text-align: center;
+            font-size: 12px;
+            margin: 0 auto;
+            margin-top: 10px;
+		  	margin-bottom: 40px;
+		  	font-size:15px;
+		  	width: 70%;
+		}
+	
+		.about-title{
+			margin: 5px auto 0;
+			text-align: center;
+			color: #3498db;
+			margin-top: 20px;
+		}
+		#about-footer{
+			height: 24px;
+			text-align: center;
+			border-top:0; 
+			font-size: 12px;
+			padding-bottom: 10px;
+		}
+		#about-footer a
+		{
+			color: #BDBDBD !important;
+		}
+		.content{
+			background: white;
+			color: #979797;
+		}
+		.text{
+			margin-top: 20px;
+		}
+		.banner p{
+			display: block;
+			text-align: center;
+			margin: 5px auto;
+		}
+		.row{
+			padding: 10%;
+			padding-top: 40px;
+			margin-bottom: 10px;
+		}
+		.row .name{
+			display: inline-block;
+			font-size: 18px;
+			color: #000;
+			font-weight: bold;
+			padding-right: 10px;
+			padding-bottom: 5px;
+		}
+		.row .job{
+			display: inline-block;
+			font-size: 16px;
+			color: #3C3C3C;
+		}
+		.col-sm-4{
+			padding-bottom: 10px;
+		}
+</style>
+<body>
+	<footer class="bar bar-footer" id='about-footer'>
+		<span><a href="http://www.shareto.link">&copy;享应</a></span>
+	</footer>
+	<div class="content">
+		<div class="banner">
+			<h1 class="about-title" data-href="http://www.shareto.link">享应工作室</h1>
+			<p class="text">致力于运用仅有的知识</p>
+			<p>让生活变得更美好</p>
+		</div>
+
+		<div class="row">
+			<div class="col-sm-4 col-sm-offset-2">
+				<div class="team">
+					<div class="name">江磊</div>
+	                <div class="job">安卓开发工程师</div>
+	                <p>二年的安卓开发经验，喜欢研究安卓手机</p>
+	                <p>觉得生活的乐趣就是：吃饭睡觉码代码。</p>
+                </div>   
+			</div>
+			<div class="col-sm-4">
+				<div class="team">
+					<div class="name">饶大奇</div>
+	                <div class="job">前端工程师</div>
+	                <p>从C到OC，从OC到java，从java到网页，经过多种尝试，最后找到了自己的方向</p>
+	                <p>觉得生活的乐趣就是：做自己想做的事</p>
+                </div>
+			</div>
+			<div class="col-sm-4">
+				<div class="team">
+					<div class="name">李富冰</div>
+	                <div class="job">iOS、OSX开发工程师</div>
+	                <p>SwiftGG翻译组成员，享应工作室成员。</p>
+	                <p>喜欢看电影，听音乐，找文章，译文章。</p>
+                </div>
+			</div>
+			<div class="col-sm-4">
+				<div class="team">
+					<div class="name">韩琪</div>
+	                <div class="job">后台开发工程师</div>
+	                <p>何必在意别人的眼光，简简单单做自己就好</p>
+                </div>
+			</div>
+			<div class="col-sm-4">
+				<div class="team">
+					<div class="name">曾雨声</div>
+	                <div class="job">前端工程师</div>
+	                <p>平时爱好听音乐，看电影，在无聊的时候玩一些益智游戏</p>
+                </div>
+			</div>
+			<div class="col-sm-4">
+				<div class="team">
+					<div class="name">范梅梅</div>
+	                <div class="job">UI设计师</div>
+	                <p>努力 不做一个被逼的人类</p>
+                </div>
+			</div>
+		</div>
+
+		<ul class="ui-list ui-list-text ui-border-tb ui-list-link">
+			<!-- <li class="ui-border-t ui-list-item-link" data-href="http://form.mikecrm.com/f.php?t=RP29zl">
+					<div class="media-body">加入我们</div>
+			</li>
+			<li class="ui-border-t ui-list-item-link" data-href="./protocol.html">
+					<div class="media-body">服务协议</div>
+			</li>
+			<li class="ui-border-t ui-list-item-link" data-href="./protocol.html">
+					<div class="media-body">关于我们</div>
+			</li> -->
+		</ul>
+	</div>
+</body>
+<script src="./js/zepto.min.js"></script>
+<script>
+	$(".ui-list-item-link,.ui-border-t,.spe-list,.ui-btn-lg,.about-title").on("click", function() {
+		var href = $(this).data('href');
+		if (href) {
+			location.href = href;
+		}
+	});
+</script>
+</html>

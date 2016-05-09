@@ -1,0 +1,1 @@
+jar cvf pcs.jar -C  build/intermediates/classes/debug .
